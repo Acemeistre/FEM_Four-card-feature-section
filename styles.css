@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*colours*/
+    --color-dark-grey: #4D4F62;
+    --color-grey: #6A7178;
+    --color-red: #EA5454;
+    --color-cyan: #44D3D2;
+    --color-blue: #549EF2;
+    --color-orange: #FCAE4A;
+
+    /*spacing*/
+    --spacing-500: 2.5rem;
+    --spacing-400: 2rem;
+    --spacing-300: 1.5rem;
+    --spacing-200: 1rem;
+    --spacing-100: .5rem;
+}
