@@ -10,6 +10,7 @@
     --color-cyan: #44D3D2;
     --color-blue: #549EF2;
     --color-orange: #FCAE4A;
+    --color-background: #FAFAFA;
 
     /*spacing*/
     --spacing-500: 2.5rem;
@@ -23,6 +24,8 @@ body {
     font-family: "poppins", sans-serif;
     display: flex;
     min-height: 100vh;
+    background-color: var(--color-background);
+    margin: 0;
 }
 
 .intro {
@@ -37,11 +40,12 @@ body {
     text-align: center;
     font-weight: 400;
     margin: 0;
-    padding: var(--spacing-300) var(--spacing-100) var(--spacing-100);
+    padding: var(--spacing-300) var(--spacing-200) var(--spacing-200);
 }
 
 .banner-header strong,
-.banner-text {
+.banner-text,
+.card-header {
     color: var(--color-dark-grey);
 }
 
@@ -49,5 +53,35 @@ body {
     text-align: center;
     font-size: var(--spacing-200);
     margin: 0;
-    padding: var(--spacing-200) 0;
+    padding: var(--spacing-200);
+}
+
+.cards {
+    list-style: none;
+    padding: var(--spacing-200);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: var(--spacing-400);
+    gap: var(--spacing-100);
+    border-radius: var(--spacing-100);
+}
+
+.card-header {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.card-text {
+    color: var(--color-grey);
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.card img {
+    align-self: flex-end;
+    padding: var(--spacing-200)
 }
