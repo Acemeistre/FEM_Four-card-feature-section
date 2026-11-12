@@ -112,7 +112,7 @@ main {
     }
     .cards {
         display: grid;
-        grid-template-rows: repeat (3 auto);
+        grid-template-rows: repeat (3, auto);
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .card:nth-child(1) {

@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/Acemeistre/FEM_Four-card-feature-section/)
-- Live Site URL: [Live site](https://acemeistre.github.io/FEM_SFour-card-feature-section/)
+- Live Site URL: [Live site](https://acemeistre.github.io/FEM_Four-card-feature-section/)
 
 ## My process
 
